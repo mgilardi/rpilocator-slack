@@ -10,15 +10,11 @@ def set_keywords():
 
 
 def post_message_to_slack(blocks=None):
-    slack_token = 'SLACK_TOKEN'
-    slack_channel = '#rpilocator'
-    slack_icon_emoji = ':pie:'
-    slack_user_name = 'rpilocator'
     return requests.post('https://slack.com/api/chat.postMessage', {
-        'token': slack_token,
-        'channel': slack_channel,
-        'icon_emoji': slack_icon_emoji,
-        'username': slack_user_name,
+        'token': 'SLACK_TOKEN',
+        'channel': '#rpilocator',
+        'icon_emoji': ':pie:',
+        'username': 'rpilocator',
         'blocks': json.dumps(blocks) if blocks else None
     }).json()
 
