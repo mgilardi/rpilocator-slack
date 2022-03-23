@@ -1,6 +1,6 @@
 # Raspberry Pi Locator for Slack
 
-The goal of this script is to filter rpilocator (rpilocator.com) RSS feed data down by desired Pi type and then sending a Slack message when there's availability.
+The goal of this script is to filter the [rpilocator RSS feed](https://rpilocator.com/feed.rss) data down by desired Pi type(s) and then sending a Slack message when there's availability.
 
 1. Create a Slack bot and use the specified token in the config
 2. Set desired Pi types as keywords (matching the title on rpilocator.com)
