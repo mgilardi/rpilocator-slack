@@ -59,7 +59,7 @@ def process_feed(feed):
                     }
                 }
             ]
-            json.loads(json.dumps(post_message_to_slack(blocks)))
+            post_message_to_slack(blocks)
 
             with open(script_directory + '/viewed_items.txt', 'a') as f:
                 f.write('{}\n'.format(published_date))
