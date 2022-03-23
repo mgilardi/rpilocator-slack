@@ -11,9 +11,9 @@ def set_keywords():
 
 def post_message_to_slack(blocks=None):
     slack_token = 'SLACK_TOKEN'
-    slack_channel = '#pi-notifier'
+    slack_channel = '#rpilocator'
     slack_icon_emoji = ':pie:'
-    slack_user_name = 'Pi Notifier'
+    slack_user_name = 'rpilocator'
     return requests.post('https://slack.com/api/chat.postMessage', {
         'token': slack_token,
         'channel': slack_channel,
