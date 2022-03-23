@@ -10,4 +10,4 @@ The goal of this script is to filter rpilocator (rpilocator.com) RSS feed data d
 * * * * * /usr/local/bin/python3 /path/to/rpilocator-slack/rpilocator-slack.py
 ```
 
-_The rpilocator tool was created by André Costa of DPHacks.com and rpilocator.com. Thanks, André!_
+**The rpilocator tool was created by André Costa of DPHacks.com and rpilocator.com. Thanks, André!**
